@@ -1,12 +1,12 @@
-#Desafío ALURA "Conversor de Moneda"
+<h1>Desafío ALURA "Conversor de Moneda"</h1>
 
 |Estado del proyecto: En desarrollo|
 
-##Descripción del proyecto:
+<h2>Descripción del proyecto:</h2>
 
 Este desafío consiste en desarrollar una aplicación de conversion de monedas, en la cual los usuarios podrán consultar el tipo de moneda al que desean convertir cierta cantidad de dinero y el sistema les proporcionara la conversion completa.
 
-##Descripción de las funcionalidades:
+<h3>Descripción de las funcionalidades:</h3>
 
 -Visualizar la lista: Al ingresar lo primero que aparecerá sera la lista con todos los tipos de conversiones que se puede realizar.
 
@@ -16,7 +16,7 @@ Este desafío consiste en desarrollar una aplicación de conversion de monedas, 
 
 -Valor final: Como resultado la aplicación le devolverá al usuario el monto ya convertido.
 
-##Tecnologías utilizadas:
+<h4>Tecnologías utilizadas:</h4>
 
 -Java JDK: versión 11 en adelante
 
@@ -26,6 +26,6 @@ Este desafío consiste en desarrollar una aplicación de conversion de monedas, 
 
 -IntelliJ IDEA
 
-##Instalación y uso:
+<h5>Instalación y uso:</h5>
 
 Puedes clonar este repositorio.
