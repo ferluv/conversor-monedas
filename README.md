@@ -1,6 +1,6 @@
 <h1>Desafío ALURA "Conversor de Moneda"</h1>
 
-|Estado del proyecto: En desarrollo|
+|Estado del proyecto: Finalizado|
 
 <h2>Descripción del proyecto:</h2>
 
@@ -8,7 +8,7 @@ Este desafío consiste en desarrollar una aplicación de conversion de monedas, 
 
 <h3>Descripción de las funcionalidades:</h3>
 
--Visualizar la lista: Al ingresar lo primero que aparecerá sera la lista con todos los tipos de conversiones que se puede realizar.
+-Visualizar la lista: Al ingresar a ConversorApp lo primero que aparecerá sera la lista con todos los tipos de conversiones que se puede realizar.
 
 -Selección: Se le pedirá al usuario elegir el número del tipo de conversion que quiera hacer.
 
@@ -26,6 +26,14 @@ Este desafío consiste en desarrollar una aplicación de conversion de monedas, 
 
 -IntelliJ IDEA
 
-<h5>Instalación y uso:</h5>
+<h5>Instalación del proyecto:</h5>
 
-Puedes clonar este repositorio.
+-Clonar este repositorio: git clone https://github.com/ferluv/conversor-monedas.git
+
+-Abre el proyecto en IntelliJ.
+
+-Ejecuta la clase ConversorApp para iniciar el programa.
+
+<h6>Requisitos:</h6>
+
+-Tener una API KEY válida de ExchangeRate
