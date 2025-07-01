@@ -23,6 +23,11 @@ public class ServicioCambio {
 
             if (response.statusCode() == 200){
                 String body = response.body();
+                if (body == null || body.isEmpty()) {
+                    System.out.println("La respuesta de la API está vacía.");
+                    return -1;
+                }
+
                 Gson gson = new Gson();
 
                 RespuestaCambio datos = gson.fromJson(body, RespuestaCambio.class);
@@ -30,7 +35,7 @@ public class ServicioCambio {
                 if ("success".equals(datos.getResult())) {
                     return datos.getConversion_rate();
                 } else {
-                    System.out.println("Error en la respuesta de la API.");
+                    System.out.println("Error en la respuesta de la API. Mensaje recibido: " + body);
                 }
             } else {
                 System.out.println("Error HTTP: " + response.statusCode());
