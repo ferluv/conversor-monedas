@@ -1,4 +1,4 @@
-![Demo consola](images/convertidor de monedas.png)
+![Demo consola](https://github.com/ferluv/conversor-monedas/blob/main/images/convertidor%20de%20monedas.png?raw=true)
 
 # Conversor de Moneda"
 **Desafío ALURA**
