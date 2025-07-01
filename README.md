@@ -1,3 +1,5 @@
+![Demo consola](images/convertidor de monedas.png)
+
 # Conversor de Moneda"
 **Desafío ALURA**
 
